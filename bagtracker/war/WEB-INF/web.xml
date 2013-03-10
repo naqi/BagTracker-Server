@@ -11,6 +11,30 @@
     <url-pattern>/bagtracker/greet</url-pattern>
   </servlet-mapping>
   
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>loginUserServlet</servlet-name>
+    <servlet-class>com.hackathon.bag.tracker.servlets.LoginUserServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>loginUserServlet</servlet-name>
+    <url-pattern>/bagtracker/loginUser</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>registerDeviceServlet</servlet-name>
+    <servlet-class>com.hackathon.bag.tracker.servlets.RegisterDeviceServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>registerDeviceServlet</servlet-name>
+    <url-pattern>/bagtracker/registerDevice</url-pattern>
+  </servlet-mapping>
+  
+  
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>Bagtracker.html</welcome-file>
